@@ -1,0 +1,330 @@
+body
+{
+	background-color: white;
+}
+.head-logo
+{
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px; 
+	float: left;
+	font-family: Troika;
+	font-size: 36px;
+	text-align: center;
+	overflow: hidden;
+	color: black;
+}
+.headline
+{
+	padding-top: 40px;
+	margin-bottom: 20px;
+	font-family: Troika;
+	font-size: 30px;
+	text-align: center;
+}
+header
+{
+	height: 400px;
+	width: 100%;
+	overflow: hidden;
+	background-image: url('/include/img/background.jpg');
+	background-size: 1500px 800px;
+}
+.header-block
+{
+	padding-top: 110px;
+	height: 100%;
+	width: 600px; 
+	text-align: center;
+	margin: auto;
+	font-family: Troika;
+	font-size: 20px;
+	text-shadow: black 0 0 20px;
+	color: white;
+}
+.header-block > h2
+{
+	font-size: 38px;
+}
+.header-button
+{
+	height: 40px;
+	width: 200px;
+	border-radius: 30px;
+}
+.card-block
+{
+	width: 100%;
+	height: 100%;
+  	align-items: center;
+  	align-content: center;
+  	background-color: lightgreen;
+	background-color: white;
+	padding-bottom: 30px;
+}
+.card_block_1_line
+{
+	display: flex;
+	flex-direction: row;
+  	justify-content: center;
+}
+.card_block_2_line
+{
+	display: flex;
+	flex-direction: row;
+  	justify-content: center;
+}
+.info-card
+{
+	height: 250px;
+	width: 400px;
+	margin: 20px;
+	/*background-color: red;*/
+}
+.info-head
+{
+	height:90px;
+	width: 400px;
+	display: flex;
+	/*background-color: lightblue;*/
+}
+.info-ico
+{
+	height: 90px;
+	width: 90px;
+	border-radius: 90%;
+	border: 2.5px solid;
+	background-color: #F4F0F0;
+}
+.info-ico > img 
+{
+	margin-top: 13px;
+	margin-left: 13px;
+	width: 70%;
+	height: 70%;
+}
+.info-headline
+{
+	height: 90px;
+	width: 310px;
+	line-height: 90px;
+	text-align: center;
+	font-family: Troika;
+	font-size: 30px;
+	/*background-color: lightgreen;*/
+}
+.info-text
+{
+	display: block;
+	margin-left: 90px;
+	font-size: 18px;
+	font-family: Troika;
+	
+}
+.traning-block
+{
+	width: 100%;
+	height: 100%;
+	padding-bottom: 40px;
+	text-align: center;	
+  	align-items: center;
+  	align-content: center;
+	background-color: rgb(61, 61, 61);
+	color: white;
+}
+.traning-text
+{
+	font-family: Troika;
+	font-size:20px;
+	text-align: center;
+	margin: 0px 180px 0px 180px; /*впнл*/ 
+}
+.traning-text > a
+{
+	text-decoration: none;
+	color: #d3dbd3;
+}
+
+.traning-button
+{
+	width: 200px;
+	height: 40px;
+	margin-top: 20px;
+	border-radius: 50px; 
+    font-family: Troika;
+}
+.achiv-block
+{
+	width: 100%;
+	height: 100%;
+	padding-bottom: 80px;
+	text-align: center;	
+  	align-items: center;
+  	align-content: center;
+	background-color: white;
+	color: black;
+}
+.achiv-headline
+{
+	font-family: Troika;
+	font-size: 28px;
+	margin-bottom: 30px;
+}
+.win-block
+{
+	display: block;
+	flex-direction: row;
+  	justify-content: space-around;
+  	margin: 0px 100px 0px 100px;
+}
+.win-block-1
+{
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-around;
+	margin-bottom: 50px;
+}
+.win-block-2
+{
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-around;
+}
+.org-block
+{
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-around;
+  	margin: 0px 350px 0px 350px;
+}
+.achiv-ico
+{
+	height: 140px;
+	width: 140px;
+	border-radius: 90%;
+	background-color: white;
+	font-family: Troika;
+	font-size: 20px;
+}
+.achiv-ico > img 
+{
+	width: 100%;
+	height: 100%;
+	border-radius: 100px;
+}
+.contact-block
+{
+	width: 100%;
+	height: 100%;
+	padding-bottom: 140px;
+	text-align: center;	
+  	align-items: center;
+  	align-content: center;
+	background-color: rgb(61, 61, 61);;
+	color: white;
+}
+.team-block
+{
+	width: 100%;
+	height: 220px;
+
+	font-family: Troika;
+
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-between;
+  	padding: 0px 180px 0px 180px;
+  	margin-bottom: 20px;
+}
+.team-img
+{
+	width: 180px;
+	height: 180px;
+	border-radius: 90px;
+	border: 3px solid white;
+}
+.social-block
+{
+	width: 100%;
+	height: 180px;
+
+	font-family: Troika;
+
+	display: block;
+	flex-direction: row;
+  	justify-content: center;
+}
+.social-text
+{
+	padding-left: 300px;
+	padding-right: 300px;
+	width: 100%;
+	height: 80px;
+	font-size: 22px;
+}
+.social-ico
+{
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: center;
+}
+.social-ico-img
+{
+	width: 60px;
+	height: 60px;
+	margin: 20px;
+}
+.mail-contact-block
+{
+	width: 100%;
+	height: 200px;
+
+	font-family: Troika;
+
+	display: block;
+	flex-direction: row;
+  	justify-content: space-around;
+
+}
+.mail-input
+{
+	text-align: center;	
+	width: 300px;
+	border-radius: 10px;	
+}
+.mail-input-title
+{
+	padding: 8px;
+	padding-right: 40px;
+}
+.mail-input-mes
+{
+	padding: 8px;
+	padding-right: 42px;
+}
+.mail-input-cont
+{
+	padding: 8px;
+}
+.mail-button
+{
+	width: 260px;
+	height: 40px;
+	margin-left: 50px;
+	border-radius: 10px;
+}
+footer
+{
+	padding-top: 20px;
+	height: 120px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+footer > a
+{
+	color: white;
+	text-decoration: none;
+}
