@@ -1,3 +1,4 @@
+@media only screen and (max-device-width: 480px){
 body
 {
 	background-color: white;
@@ -16,15 +17,15 @@ body
 }
 .headline
 {
-	padding-top: 40px;
+	padding-top: 50px;
 	margin-bottom: 20px;
 	font-family: Troika;
-	font-size: 30px;
+	font-size: 45px;
 	text-align: center;
 }
 header
 {
-	height: 400px;
+	height: 500px;
 	width: 100%;
 	overflow: hidden;
 	background-image: url('/include/img/background.jpg');
@@ -32,156 +33,33 @@ header
 }
 .header-block
 {
-	padding-top: 40px;
+	padding-top: 10px;
 	height: 100%;
 	width: 600px; 
 	text-align: center;
 	margin: auto;
 	font-family: Troika;
-	font-size: 20px;
+	font-size: 32px;
 	text-shadow: black 0 0 20px;
 	color: white;
 }
 .header-block > h2
 {
-	font-size: 38px;
+	font-size: 45px;
 }
 .header-button
 {
-	height: 40px;
-	width: 200px;
+	height: 60px;
+	width: 300px;
 	border-radius: 30px;
 }
-.news-block
-{
-	width: 100%;
-	height: 100%;
-	padding-bottom: 40px;
-	text-align: center;	
-  	align-items: center;
-  	align-content: center;
-	background-color: rgb(61, 61, 61);
-	color: white;
-}
-.news_block_place
-{
-	display:grid;
-	grid-template-columns: 200px 200px 200px;
-	grid-gap: 2vw;
-	justify-content: center;
-}
-.news_block_place > div.short
-{
-	background-color: white;
-	height: 200px;
-	border-radius: 15px;
-	overflow: hidden;
-}
-.news_block_place > div.long
-{
-	background-color: black;
-	grid-column: auto / span 2;
-	height: 200px;
-	border-radius: 15px;
-	overflow: hidden;
-	display:grid;
-	grid-template-columns: 230px 200px;
-	grid-template-rows: 15% 75% 10%;
-}
-.news_block_place > div.big
-{
-	background-color: white;
-	grid-column: auto / span 2;
-	grid-row: auto / span 2;
-	border-radius: 15px;
-	overflow: hidden;
-}
-.news_block_img_long
-{
-	width: 100%;
-	height: 100%;
-}
-.news_block_img_long_block
-{
-	grid-row: auto / span 3;
-}
-.news_block_text_long
-{
-	font-size: 24px;
-	overflow: hidden;
-}
-.news_block_descr_long
-{
-	font-size: 22px;
-	overflow: hidden;
-}
-.news_block_date_long
-{
-	margin-left: 100px;
-}
-.news_block_img_short
-{
-	max-width:100%; 
-	height: 70%;
-}
-.news_block_text_block_short
-{
-	width:100%;
-	height: 30%;
-	background-color: black;
-}
-.news_block_text_short
-{
-	padding-top: 5px;
-	font-size: 24px;
-	overflow: hidden;
-	height: 50%;	
-}
-.news_block_date_short
-{
-	float: right;
-	padding-right: 10px;
-	height: 40%;
-}
-
-.news_block_img_big
-{
-	width:100%; 
-	height: 70%;
-}
-.news_block_text_block_big
-{
-	width:100%;
-	height: 30%;
-	background-color: black;
-}
-.news_block_text_big
-{
-	padding-top: 5px;
-	font-size: 26px;
-	line-height: 20px;
-	overflow: hidden;
-	height: 20%;	
-}
-.news_block_descr_big
-{
-	font-size: 22px;
-	overflow: hidden;
-	height: 58%;	
-}
-.news_block_date_big
-{
-	float: right;
-	padding-right: 10px;
-	height: 20%;
-}
-
 .card-block
 {
 	width: 100%;
 	height: 100%;
   	align-items: center;
   	align-content: center;
+  	background-color: lightgreen;
 	background-color: white;
 	padding-bottom: 30px;
 }
@@ -193,10 +71,9 @@ header
 }
 .info-card
 {
-	height: 250px;
-	width: 380px;
-	margin: 10px 60px 10px 6	0px; /*впнл*/
-	overflow: hidden;
+	height: 420px;
+	width: 450px;
+	margin: 20px 40px 20px 40px; /*впнл*/
 }
 .info-head
 {
@@ -206,16 +83,16 @@ header
 }
 .info-ico
 {
-	height: 70px;
-	width: 70px;
+	height: 90px;
+	width: 90px;
 	border-radius: 90%;
 	border: 2.5px solid;
 	background-color: #F4F0F0;
 }
 .info-ico > img 
 {
-	margin-top: 10px;
-	margin-left: 10px;
+	margin-top: 12px;
+	margin-left: 12px;
 	width: 70%;
 	height: 70%;
 }
@@ -226,17 +103,17 @@ header
 	line-height: 90px;
 	text-align: center;
 	font-family: Troika;
-	font-size: 30px;
+	font-size: 34px;
 	/*background-color: lightgreen;*/
 }
 .info-text
 {
 	display: block;
 	margin-left: 90px;
-	font-size: 15px;
+	font-size: 26px;
+	max-height: 320px;
 	font-family: Troika;
-	max-height: 138px;
-	overflow: hidden;	
+	
 }
 .traning-block
 {
@@ -252,7 +129,7 @@ header
 .traning-text
 {
 	font-family: Troika;
-	font-size:20px;
+	font-size: 30px;
 	text-align: center;
 	margin: 0px 180px 0px 180px; /*впнл*/ 
 }
@@ -264,17 +141,18 @@ header
 
 .traning-button
 {
-	width: 200px;
-	height: 40px;
+	width: 300px;
+	height: 60px;
 	margin-top: 20px;
-	border-radius: 50px; 
+	border-radius: 50px;
+	font-size: 25px; 
     font-family: Troika;
 }
 .achiv-block
 {
 	width: 100%;
 	height: 100%;
-	padding-bottom: 80px;
+	padding-bottom: 120px;
 	text-align: center;	
   	align-items: center;
   	align-content: center;
@@ -284,7 +162,7 @@ header
 .achiv-headline
 {
 	font-family: Troika;
-	font-size: 28px;
+	font-size: 38px;
 	margin-bottom: 30px;
 }
 .win-block
@@ -299,7 +177,7 @@ header
 	display: flex;
 	flex-direction: row;
   	justify-content: space-around;
-	margin-bottom: 50px;
+	margin-bottom: 80px;
 }
 .win-block-2
 {
@@ -312,16 +190,16 @@ header
 	display: flex;
 	flex-direction: row;
   	justify-content: space-around;
-  	margin: 0px 350px 0px 350px;
+  	margin: 0px 250px 0px 250px;
 }
 .achiv-ico
 {
-	height: 140px;
-	width: 140px;
+	height: 180px;
+	width: 180px;
 	border-radius: 90%;
 	background-color: white;
 	font-family: Troika;
-	font-size: 20px;
+	font-size: 28px;
 }
 .achiv-ico > img 
 {
@@ -343,10 +221,10 @@ header
 .team-block
 {
 	width: 100%;
-	height: 220px;
+	height: 260px;
 
 	font-family: Troika;
-
+	font-size: 25px;
 	display: flex;
 	flex-direction: row;
   	justify-content: center;
@@ -356,17 +234,12 @@ header
 }
 .team-img
 {
-	width: 180px;
-	height: 180px;
-	border-radius: 90px;
+	width: 195px;
+	height: 195px;
+	border-radius: 110px;
 	margin: 0px 20px 0px 20px;
 	border: 3px solid white;
 
-}
-.team-img:hover
-{
-	border: 3px solid #818181;
-	box-shadow: 0 0 12px white;
 }
 .social-block
 {
@@ -381,10 +254,10 @@ header
 }
 .social-text
 {
-	margin: 20px auto 20px auto;
-	width: 60%;
+	margin: 0 auto 30px auto;
+	width: 80%;
 	height: 80px;
-	font-size: 22px;
+	font-size: 30px;
 }
 .social-ico
 {
@@ -395,34 +268,17 @@ header
 }
 .social-ico-img
 {
-	width: 60px;
-	height: 60px;
+	width: 80px;
+	height: 80px;
 	margin: 20px;
-}
-.social-ico-img:hover
-{
-	box-shadow: 0 0 10px black;
-	border-radius: 20px;
-}
-.vk:hover	
-{
-	background-color: #5AA4DD;
-}
-.youtube:hover
-{
-	background-color: red;
-}
-.instagram:hover
-{
-	
-background-image: linear-gradient(to top right, rgb(236, 247, 19), rgb(236, 227, 36), rgb(236, 208, 52), rgb(236, 188, 69), rgb(236, 168, 86), rgb(236, 149, 103), rgb(237, 129, 119), rgb(237, 110, 136), rgb(237, 90, 153), rgb(237, 70, 170), rgb(237, 51, 186), rgb(237, 31, 203));
 }
 .mail-contact-block
 {
 	width: 100%;
-	height: 200px;
+	height: 300px;
 
 	font-family: Troika;
+	font-size:28px;
 
 	display: block;
 	flex-direction: row;
@@ -448,64 +304,28 @@ background-image: linear-gradient(to top right, rgb(236, 247, 19), rgb(236, 227,
 .mail-input-cont
 {
 	padding: 8px;
+	margin-left: 24px;
 }
 .mail-button
 {
 	width: 260px;
 	height: 40px;
-	margin-left: 50px;
+	margin-left: 100px;
 	border-radius: 10px;
-}
-.e404-content
-{
-	width: 800px;
-	height: auto;
-	margin: 0 auto 0 auto;
-
-	display: grid;
-	grid-template-rows: 300px 80px 120px;
-}
-.e404-content > div.social
-{
-	margin-top: 20px;
-	width: 400px;
-	height: 100px;
-	margin:auto;
-	border-radius: 25px;
-	background-color: grey;
-}
-.e404-button
-{
-	width: 200px;
-	height: 60px;
-	margin: auto;
-	background-color: grey;
-	text-align: center;
-	line-height: 60px;
-	font-size: 35px;
-	font-family: Troika;
-	color:black;
-	border-radius: 20px;
-}
-.ban-text
-{
-	padding-top: 40px;
-	text-align: center;
-	font-size: 30px;
-	font-weight: bold;
-	overflow: hidden;
 }
 footer
 {
-	padding-top: 20px;
-	height: 80px;
+	height: 160px;
 	width: 100%;
+	padding-top: 20px;
 	background-color: black;
 	color: white;
+	font-size: 20px;
 	text-align: center;
 }
 footer > a
 {
 	color: white;
 	text-decoration: none;
+}
 }

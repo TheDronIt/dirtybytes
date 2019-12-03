@@ -1,0 +1,3 @@
+AddDefaultCharSet cp1251
+php_value default_charset cp1251
+ErrorDocument 404 /404.html

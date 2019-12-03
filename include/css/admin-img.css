@@ -1,0 +1,35 @@
+body
+{
+	background-color: lightgrey;
+}
+.center-menu
+{
+	padding: 20px 0 10px 0;
+	width: 500px;
+	height: 30px;
+	text-align: center;
+	font-size: 25px;
+	margin: 0 auto 0 auto;
+	background-color: lightblue;
+}
+.center
+{
+	width: 500px;
+	height: auto;
+	margin:0 auto 0 auto;
+}
+
+.img-big-block
+{
+	display: grid;
+	grid-template-columns: 150px 150px 150px;
+	grid-gap: 25px;
+}
+.img-big-block > div
+{
+	background-color: white;
+	height: 100px;
+
+	display: grid;
+	grid-template-rows: 20px 80px;
+}

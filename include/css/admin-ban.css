@@ -1,0 +1,52 @@
+body
+{
+	background-color: lightgrey;
+}
+.center-menu
+{
+	padding: 20px 0 10px 0;
+	width: 500px;
+	height: 30px;
+	text-align: center;
+	font-size: 25px;
+	margin: 0 auto 0 auto;
+	background-color: lightblue;
+}
+.center
+{
+	width: 500px;
+	height: auto;
+	margin:0 auto 0 auto;
+}
+
+
+.ipban-block
+{
+	width: 100%;
+	height: 100px;
+	margin-top: 15px;	
+	border-radius: 10px;
+	background-color: white;
+	overflow: hidden;
+	font-size: 18px;
+
+	display: grid;
+	justify-content: center;
+	grid-template-rows: 30px 40px 30px;
+	grid-template-columns: 400px 100px;
+}
+.ipban-block > div.info
+{
+	padding-left: 20px;
+}
+.ipban-block > div.delete
+{
+	grid-row: auto / 3 span;
+	background-color: #EEEEEE;
+	padding-top: 30px;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;	
+}
+
+

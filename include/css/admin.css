@@ -1,0 +1,112 @@
+body
+{
+	background-color: #e5e5e5;
+}
+.center-menu
+{
+	padding: 20px 0 10px 0;
+	width: 500px;
+	height: 30px;
+	text-align: center;
+	font-size: 25px;
+	margin: 0 auto 0 auto;
+	background-color: lightblue;
+}
+.center-container
+{
+	width: 500px;
+	height: auto;
+	margin:20px auto 0 auto;
+}
+.center
+{
+	width: 500px;
+	height:110px;
+	margin:150px auto 0 auto;
+	padding-top: 20px;
+	background-color: white;
+
+	
+	display: grid;
+	grid-template-rows: 30px 30px;
+	grid-template-columns: 150px 250px;
+	grid-gap: 2vw;
+	justify-content: space-around;
+}
+.login_input
+{
+	width:250px;
+	height: 30px;
+	text-align: center;
+}
+.center > div.text
+{
+	font-size: 24px;
+}
+.submit
+{
+	width: 500px;
+	height: 50px;
+	background-color: white;
+	margin:auto;
+	text-align: center;
+}
+.login_submit
+{
+	width:150px;
+	height: 35px;
+	border-radius: 15px; 
+}
+
+
+.panel-main-block
+{
+	padding: 20px 0 20px 0;
+	margin: 30px auto 0 auto;
+	width: 500px;
+	
+	display: grid;
+	grid-template-rows: 90px 90px 90px;
+	grid-gap: 20px;
+
+	justify-content: center;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 0 0 10px black;
+}
+.panel-main-block > div
+{
+	border: 4px solid black;
+	width: 400px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 30px;
+	border-radius: 15px;
+	background-color: #F6F5F5;
+}
+
+
+
+
+.info-card
+{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	border-radius: 10px;
+	margin-bottom: 15px;
+
+	display: grid;
+	grid-template-rows: 40px auto;
+}
+.info-card > div.headline
+{
+	padding: 5px 0 0 15px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.info-card > div.text
+{
+	font-size: 24px;
+	padding-left: 7px;	
+}

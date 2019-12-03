@@ -1,0 +1,90 @@
+body
+{
+	background-color:rgb(61, 61, 61);
+}
+.head-logo
+{
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px; 
+	float: left;
+	font-family: Troika;
+	font-size: 36px;
+	text-align: center;
+	overflow: hidden;
+	color: black;
+	background-color: white;
+}
+.nav
+{
+	width: 100%;
+	height: 45px;
+	background-color: white;
+	font-size: 30px;
+	display: grid;
+	grid-template-columns: 70px auto 70px;	
+	justify-content: center; 	
+	grid-column-gap: 120px;
+	margin-bottom: 40px;
+}
+.news-block
+{
+	width: 90%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fill,400px);
+	justify-content: center;
+	grid-gap: 30px;
+}
+.news-card
+{
+	height: 140px;
+	background-color: black;
+	color:white;
+	border-radius: 20px;
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: 150px 250px;
+	grid-template-rows: 30px 90px 20px;
+}
+.news-photo
+{
+	width:100%;
+	height: 100%;
+}
+.news-card > div.img
+{
+	grid-row: auto / span 3;
+}
+.news-card > div.headline
+{
+	padding-left: 15px;
+	overflow:hidden;
+	font-size: 22px;
+	font-weight: bold;
+}
+.news-card > div.descr
+{
+	padding-left: 10px;
+	font-size: 18px;
+	overflow: hidden;
+}
+.news-card > div.date
+{
+	padding-left: 65%;
+}
+footer
+{
+	margin-top: 30px;
+	padding-top: 20px;
+	height: 80px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+footer > a
+{
+	color: white;
+	text-decoration: none;
+}

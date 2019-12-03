@@ -1,0 +1,93 @@
+body
+{
+	background-color: lightgrey;
+}
+.center-menu
+{
+	padding: 20px 0 10px 0;
+	width: 500px;
+	height: 30px;
+	text-align: center;
+	font-size: 25px;
+	margin: 0 auto 0 auto;
+	background-color: lightblue;
+}
+.center
+{
+	width: 500px;
+	height: auto;
+	margin:0 auto 0 auto;
+}
+
+
+.add-center-block
+{
+	width: 400px;
+	height: auto;
+	margin: 20px auto 0 auto;
+	padding-bottom: 30px;
+	background-color: white;
+	
+}
+.add-center-block-long
+{
+	width: 500px;
+	height: auto;
+	margin: 20px auto 0 auto;
+	padding-bottom: 30px;
+	background-color: white;
+}
+.add-input-block
+{
+	padding-top: 30px;
+	display: grid;
+	grid-template-columns: 140px 200px;
+	grid-template-rows: auto;
+	grid-gap: 15px;
+}
+.add-input-block > div.text
+{
+	text-align: right;
+}
+.add-input-block > div.button
+{
+	margin-left:40px;
+	grid-column: auto / span 2;
+}
+.add-button
+{
+	width: 100%;
+	height: 40px;
+	border-radius: 10px;
+	border: 2px solid grey;
+	background-color: lightgrey;
+}
+.add-input
+{
+	width: 100%;	
+}
+.one-news-block
+{
+	width: 100%;
+	height: 100px;
+	margin-top: 15px;
+	border-radius: 10px;
+	background-color: white;
+	overflow: hidden;
+
+	display: grid;
+	grid-template-columns: 100px 1fr 80px;
+}
+.one-news-block > div.img
+{
+	grid-row: auto / span 3;
+}
+.one-news-block > div.headline
+{
+	font-size: 18px;
+	font-weight: bold;
+}
+.one-news-block > div.date
+{
+	padding-left: 20px;
+}
